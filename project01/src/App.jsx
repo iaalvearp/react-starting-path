@@ -1,21 +1,12 @@
 import "./index.css";
+import { MantainmentForm } from "./Form";
 import { FollowerCard } from "./TwitterFollowCard";
 
 export function App() {
   return (
     <>
-      <h1>Proyecto #1</h1>
-      <FollowerCard
-        name="Ivan Alvear"
-        nickname="iaalvearp"
-        followBtnText="Seguir"
-      />
-      <FollowerCard
-        name="Miguel Ángel Durán"
-        nickname="midudev"
-        isFollower
-        followBtnText="Seguir"
-      />
+      <h1>Ficha de mantenimiento</h1>
+      <MantainmentForm />
     </>
   );
 }
